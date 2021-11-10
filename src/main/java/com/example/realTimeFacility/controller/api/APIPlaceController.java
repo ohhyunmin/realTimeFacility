@@ -9,7 +9,7 @@ import java.util.List;
 public class APIPlaceController {
     @GetMapping("/places")
     public List<String> getPlaces(){
-        return List.of("place1", "place2");
+        return null;
     }
 
     @PostMapping("/places")
