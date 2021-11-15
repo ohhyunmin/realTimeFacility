@@ -1,10 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>index 페이지 입니다.</title>
 </head>
 <body>
-index 페이지 입니다.
+<!--<span id="eventsTitle" th:text="'이벤트 리시트 조회'">index 페이지 입니다.</span>
+<table id="eventsTable">
+    <thead>
+        <tr>
+            <th>장소 ID</th>
+            <th>이벤트명</th>
+            <th>이벤트 상태</th>
+            <th>시작 일시</th>
+            <th>종료 일시</th>
+            <th>현재 인원</th>
+            <th>최대 수용 인원</th>
+            <th>상세</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr th:each="event:${events}">
+            <td class="placeId" th:text="${event.placeId}">1</td>
+            <td class="eventName" th:text="${event.eventName}">1</td>
+            <td class="eventName" th:text="${event.eventName}">1</td>
+            <td class="eventStatus" th:text="${event.eventStatus}">1</td>
+            <td class="eventStartDatetime" th:text="${event.eventStartDatetime}">1</td>
+            <td class="eventEndDatetime" th:text="${event.eventEndDatetime}">1</td>
+            <td class="currentNumberOfPeople" th:text="${event.currentNumberOfPeople}">1</td>
+            <td class="capacity" th:text="${event.capacity}">1</td>
+            <td><a>상세</a></td>
+        </tr>
+    </tbody>
+</table>-->
 </body>
 </html>
